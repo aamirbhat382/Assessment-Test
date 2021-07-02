@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Assessment Task</title>
+    <!-- Favicon -->
+
+    <link href="/assets/img/brand/favicon.png" rel="icon" type="image/png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="/assets/vendor/nucleo/css/nucleo.min.css" rel="stylesheet">
+    <link href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="/assets/css/argon.min.css" rel="stylesheet">
+    <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body class="bg-light">
+    <!-- Nav Bar -->
+    <nav id="navbar-main" class="navbar navbar-horizontal  navbar-main navbar-expand-lg navbar-light ">
+        <div class="container ">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <h1 class="m-0 p-0">BooksApp</h1>
+            </a>
+            <!-- Button Toggle -->
+            <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Nav items -->
+            <div class="navbar-collapse navbar-custom-collapse collapse " id="navbar-collapse">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a class="navbar-brand" href="#">
+                                <h1 class="m-0 p-0">BooksApp</h1>
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="#" ">
+                            <i class=" ni ni-cloud-download-95 "></i>
+                            <span class=" nav-link-inner--text d-lg-none ">Download</span>
+                        </a>
+                    </li>
+                    <li class=" nav-item ">
+                            <a class=" nav-link nav-link-icon " href=" # " ">
+                            <i class=" ni ni-credit-card "></i>
+                            <span class=" nav-link-inner--text d-lg-none ">Payment</span>
+                        </a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="nav-link nav-link-icon" href="#" ">
+                            <i class=" ni ni-bell-55 "></i>
+                            <span class=" nav-link-inner--text d-lg-none ">Notifications</span>
+                        </a>
+                    </li>
+                    <li class=" nav-item ">
+                                    <a class=" nav-link nav-link-icon " href=" # " ">
+                            <i class=" ni ni-circle-08 "></i>
+                            <span class=" nav-link-inner--text ">Temporaray</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr class="my-0">
+    <div class="container rounded py-5 bg-white my-3">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Clients</h1>
+            </div>
+            <div class=" col-md-6 ">
+                <form class=" d-inline-flex " id=" search-main ">
+                    <input class=" form-control mr-3 search-input " " placeholder=" Search by customer name/email " type=" text ">
+                </form>
+                <button class=" btn bg-indigo text-white search-btn ">Search</button>
+            </div>
+            <div col-md-3>
+                <button class=" btn bg-indigo text-white new-user-btn ">Add New Customer</button>
+            </div>
+        </div>
+    </div>
+    <!-- Data Table -->
+    <div class=" container rounded bg-white table-responsive ">
+                    <table class=" table ">
+                        <thead>
+                            <tr>
+                                <th scope=" col ">Client id</th>
+                                <th scope=" col ">closing agent</th>
+                                <th scope=" col ">company</th>
+                                <th scope=" col ">order</th>
+                                <th scope=" col ">invoice paid</th>
+                                <th scope=" col ">invoice pending</th>
+                            </tr>
+                        </thead>
+                        <tbody id=" tableBody " class=" table-body ">
+
+
+                    </tbody>
+                    </table>
+            </div>
+            <!-- Core -->
+            <script src=" /assets/vendor/jquery/dist/jquery.min.js "></script>
+            <script src=" /assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js "></script>
+
+            <!-- Argon JS -->
+            <script src=" /assets/js/argon.min.js "></script>
+            <script src=" ./script.js "></script>
+</body>
+
+</html>

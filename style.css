@@ -1,0 +1,20 @@
+@media (max-width: 956px) {
+    .search-btn {
+        margin-top: 0.50rem;
+        margin-bottom: 0.50rem;
+    }
+    .new-user-btn {
+        margin-right: 0.50rem;
+        margin-left: 0.50rem;
+    }
+}
+
+.search-input {
+    width: 250px;
+}
+
+@media(max-width:257px) {
+    .search-input {
+        width: 150px;
+    }
+}
